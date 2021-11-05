@@ -6,7 +6,7 @@ WantedBy=multi-user.target
 
 [Mount]
 What=vps:/
-Where=/mnt/tower
+Where=/mnt/vps
 Type=fuse.sshfs
 Options=_netdev,allow_other,IdentityFile=/home/marc/.ssh/id_rsa,reconnect,ServerAliveInterval=30,ServerAliveCountMax=5,x-systemd.automount,uid=1000,gid=1000
 TimeoutSec=60
