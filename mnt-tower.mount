@@ -5,7 +5,7 @@ Description=Mount remote tower fs with sshfs
 WantedBy=multi-user.target
 
 [Mount]
-What=marc@tower:/
+What=tower:/
 Where=/mnt/tower
 Type=fuse.sshfs
 Options=_netdev,allow_other,IdentityFile=/home/marc/.ssh/id_rsa,reconnect,ServerAliveInterval=30,ServerAliveCountMax=5,x-systemd.automount,uid=1000,gid=1000
