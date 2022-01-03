@@ -1,0 +1,10 @@
+[Unit]
+Description=Mount ssd3 disk
+
+[Install]
+WantedBy=multi-user.target
+
+[Mount]
+What=/dev/sde1
+Where=/mnt/ssd3
+Type=mount
